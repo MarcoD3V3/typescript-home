@@ -146,7 +146,6 @@ $paddingLeft: 60px;
     flex-wrap: wrap;
 
 
-
     .container {
         max-width: 1500px;
         width: 100%;
@@ -337,5 +336,10 @@ $paddingLeft: 60px;
                 }
             }
         }
+    }
+}
+@media (max-width: 1025px){
+    .imgIntro {
+        display: none;
     }
 }
