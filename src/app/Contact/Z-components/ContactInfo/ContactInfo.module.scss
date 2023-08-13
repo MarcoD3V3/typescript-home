@@ -1,0 +1,10 @@
+.ContactInfo {
+  display: flex;
+  width: 100%;
+  align-items: start;
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

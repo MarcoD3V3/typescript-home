@@ -1,4 +1,26 @@
 .contact {
   padding-top: 60px;
-  background-color: #333;
+  background-color: #232946;
+  display: flex;
+  justify-content: center;
+  .formContact {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    .container {
+      padding: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      .ContactForm {
+        width: 50%;
+        height: 100%;
+      }
+      .ContactInfo {
+        width: 50%;
+        height: 100%;
+      }
+    }
+  }
 }

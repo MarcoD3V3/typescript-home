@@ -1,0 +1,20 @@
+.ContactForm {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  .form {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .input {
+      color: #999;
+    }
+    .button {
+      margin: 10px;
+      background-color: #b8c1ec;
+    }
+  }
+}
